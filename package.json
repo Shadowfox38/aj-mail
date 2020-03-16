@@ -15,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd src/"
+    "start": "cd src/ && node server.js"
   },
   "repository": {
     "type": "git",
