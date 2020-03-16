@@ -1,6 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
+const port = process.env.PORT || 80;
 app.use('/static',express.static('../public'));
 app.use(express.static('../public'));
 app.get('/',function(req,res)
@@ -16,4 +17,4 @@ app.post('/getdata',function(req,res)
   var obj = {from,subjects,messages,dates};
   res.send(JSON.stringify(obj));
 });
-app.listen(80);
+app.listen(port);
