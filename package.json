@@ -1,0 +1,25 @@
+{
+  "name": "aj-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SMTPserver.js",
+  "dependencies": {
+    "mailparser": "^2.7.7",
+    "nodemailer": "^6.4.5",
+    "smtp-server": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shadowfox38/aj-mail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shadowfox38/aj-mail/issues"
+  },
+  "homepage": "https://github.com/Shadowfox38/aj-mail#readme"
+}
