@@ -1,6 +1,7 @@
 const SMTPserver = require("smtp-server").SMTPServer;
 const simpleParser = require('mailparser').simpleParser;
 const fs = require('fs');
+console.log("THIS FUCKING SHOULD WORK");
 const server = new SMTPserver({
   secure : true,
   onAuth(auth,sess,cb)
