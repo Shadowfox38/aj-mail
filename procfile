@@ -1,2 +1,1 @@
-web: node SMTPserver.js
-worker: node server.js
+web: npm start

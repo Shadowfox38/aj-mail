@@ -1,7 +1,8 @@
 const SMTPserver = require("smtp-server").SMTPServer;
 const simpleParser = require('mailparser').simpleParser;
 const fs = require('fs');
-const port = process.env.PORT || 587;
+const port = process.env.PORT || 9000;
+console.log("SMTP server running");
 const server = new SMTPserver({
   secure : true,
   onAuth(auth,session,cb)
